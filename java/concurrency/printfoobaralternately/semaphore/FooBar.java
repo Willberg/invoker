@@ -1,8 +1,8 @@
+// 1115. 交替打印FooBar https://leetcode-cn.com/problems/print-foobar-alternately/
 package concurrency.printfoobaralternately.semaphore;
 
 import java.util.concurrent.Semaphore;
 
-// 1115. 交替打印FooBar https://leetcode-cn.com/problems/print-foobar-alternately/
 // 使用信号量acquire方法使信号量减1,当信号量为0时不能减小,并阻塞当前线程; release使信号量加1,
 public class FooBar {
     private int n;
