@@ -1,6 +1,7 @@
 // 1115. 交替打印FooBar https://leetcode-cn.com/problems/print-foobar-alternately/
 package concurrency.printfoobaralternately.blockingqueue;
 
+import java.util.PriorityQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
@@ -36,8 +37,25 @@ public class FooBar {
         }
     }
 
+    private class Pair implements Comparable<Pair> {
+
+        @Override
+        public int compareTo(Pair o) {
+            return 0;
+        }
+    }
+
     public static void main(String[] args) {
         FooBar fooBar = new FooBar(10);
+//        double a = 1;
+//        int b = Double.valueOf(a).intValue();
+        PriorityQueue<double[]> q = new PriorityQueue<double[]>((a, b)-> {
+            if(a[1] == b[1]) {
+                return 0;
+            } else {
+                return a[1] - b[1] < 0? -1 : 1;
+            }
+        });
 
         new Thread(() -> {
             try {
