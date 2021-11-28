@@ -1,5 +1,5 @@
-    // 399. 除法求值 https://leetcode-cn.com/problems/evaluate-division/
-package datastructure.graph.unionfind.evaluatedivision;
+// 399. 除法求值 https://leetcode-cn.com/problems/evaluate-division/
+package datastructure.unionfind.evaluatedivision;
 
 import java.util.HashMap;
 import java.util.List;
