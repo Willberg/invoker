@@ -1,5 +1,5 @@
 //1514. 概率最大的路径 https://leetcode-cn.com/problems/path-with-maximum-probability/
-package datastructure.graph;
+package datastructure.graph.dijkstra;
 
 import java.util.LinkedList;
 import java.util.List;
