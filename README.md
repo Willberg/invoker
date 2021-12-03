@@ -9,10 +9,15 @@
 
 |题号|                                 题目名称                                   |                   代码                   |难度|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|
+|11|[盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/mostwater/Solution.java)| 中等 |
+|55|[跳跃游戏](https://leetcode-cn.com/problems/jump-game/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/jumpgame/Solution.java)| 中等 |
+|406|[根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/queuereconstruction/Solution.java)| 中等 |
+|581|[最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/shortestunsorted/Solution.java)| 中等 |
+|621|[任务调度器](https://leetcode-cn.com/problems/task-scheduler/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/taskscheduler/Solution.java)| 中等 |
 |5923|[从房屋收集雨水需要的最少水桶数](https://leetcode-cn.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/minbuckets/Solution.java)| 中等 |
 |5924|[从数组中移除最大网格图中机器人回家的最小代价值和最小值](https://leetcode-cn.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/mincost/Solution.java)| 中等 |
 |5940|[从数组中移除最大值和最小值](https://leetcode-cn.com/problems/removing-minimum-and-maximum-from-array/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/removingminimumandmaximumfromarray/Solution.java)| 中等 |
-
+ 
 #### 滑动窗口
 
 |题号|                                 题目名称                                   |                   代码                   |难度|
