@@ -1,4 +1,4 @@
-// 5924. 网格图中机器人回家的最小代价 https://leetcode-cn.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
+// 2087. 网格图中机器人回家的最小代价 https://leetcode-cn.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/
 package algorithm.greedy.mincost;
 
 // 最小花销路径上一定不包含相反操作(即同时出现向上和向下,向左和向右的操作); 如果出现必然有可以抵消操作的路径存在

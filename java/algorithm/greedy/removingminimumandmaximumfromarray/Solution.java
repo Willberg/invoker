@@ -1,4 +1,4 @@
-// 5940. 从数组中移除最大值和最小值 https://leetcode-cn.com/problems/removing-minimum-and-maximum-from-array/
+// 2091. 从数组中移除最大值和最小值 https://leetcode-cn.com/problems/removing-minimum-and-maximum-from-array/
 package algorithm.greedy.removingminimumandmaximumfromarray;
 
 // 删除的三种可能:

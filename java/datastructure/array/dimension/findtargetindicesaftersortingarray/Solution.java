@@ -1,4 +1,4 @@
-// 5938. 找出数组排序后的目标下标 https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/
+// 2089. 找出数组排序后的目标下标 https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/
 package datastructure.array.dimension.findtargetindicesaftersortingarray;
 
 import java.util.Arrays;
