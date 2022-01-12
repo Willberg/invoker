@@ -39,6 +39,17 @@
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
 |2090|[半径为 k 的子数组平均值](https://leetcode-cn.com/problems/k-radius-subarray-averages/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/slidingwindow/kradiussubarrayaverages/Solution.java)| 中等 | 第269场周赛 |
 
+### 二分查找
+二分查找也常被称为二分法或者折半查找，每次查找时通过将待查找区间分成两部分并只取一部分继续查找，将查找的复杂度大大减少。对于一个长度为 O(n)的数组，二分查找的时间复杂度为 O(log n)。
+|题号|                                 题目名称                                   |                   代码                   |难度|级别|
+|:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
+|4|[寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/binarysearch/median/Solution.java)| 困难 | HOT100 |
+|33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/binarysearch/rotatedarray/Solution.java)| 中等 | HOT100 |
+|34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/binarysearch/findposition/Solution.java)| 中等 | HOT100 |
+|240|[搜索二维矩阵II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/binarysearch/searchmatrix/Solution.java)| 中等 | HOT100 |
+|287|[寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/binarysearch/findduplicate/Solution.java)| 中等 | HOT100 |
+|300|[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/binarysearch/longestincreasingsubsequence/Solution.java)| 中等 | HOT100 |
+
 ## 数据结构
 常见的练习题, 包括数组, 字符串, 栈, 队列, 哈希表, 多重集合与映射, 前缀和与积分图, 链表, 树, 图, 复杂数据结构.
 - 栈: 基本栈, 单调栈
