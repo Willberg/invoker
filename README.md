@@ -62,6 +62,15 @@
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
 |2089|[找出数组排序后的目标下标](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/array/dimension/findtargetindicesaftersortingarray/Solution.java)| 中等 | 第269场周赛 |
+
+#### 队列
+##### 优先队列
+|题号|                                 题目名称                                   |                   代码                   |难度|级别|
+|:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
+||设计通用版优先队列|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/queue/priorityqueue/PriorityQueue.java) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/queue/priorityqueue/priorityqueue.go)| 困难 | ⭐️⭐️⭐️ |
+|23|[合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/queue/priorityqueue/TestPriorityQueue.java) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/queue/mergeklists/mergeklists.go)| 困难 | ⭐️⭐️⭐️ |
+
+
 #### 图
 ##### 最短路径
 重点是迪杰斯特拉算法
@@ -70,11 +79,18 @@
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
 |1514|[概率最大的路径](https://leetcode-cn.com/problems/path-with-maximum-probability/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/graph/dijkstra/PathWithMaximumProbability.java)| 中等 | ⭐️⭐️ |
 
+#### 复杂数据结构
 ##### 并查集
   
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
 |399|[除法求值](https://leetcode-cn.com/problems/evaluate-division/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/unionfind/evaluatedivision/Solution.java)| 中等 | HOT100 |
+
+##### 跳表
+|题号|                                 题目名称                                   |                   代码                   |难度|级别|
+|:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
+|1206|[设计跳表](https://leetcode.cn/problems/design-skiplist/)|[Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/skiplist/skiplist.go)| 困难 | ⭐️⭐️⭐️ |
+
 
 ## 多线程
 重点要掌握锁,信号量
@@ -82,11 +98,12 @@
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
 |1114|[按序打印](https://leetcode-cn.com/problems/print-in-order/)|[Java](https://github.com/Willberg/invoker/blob/master/java/concurrency/printinorder/Foo.java)| 中等 |  ⭐️⭐️⭐️  |
-|1115|[交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately/)|[Java](https://github.com/Willberg/invoker/tree/master/java/concurrency/printfoobaralternately) [Go](https://github.com/Willberg/invoker/blob/master/go/concurrency/print_zero_even_odd.go)| 中等 |  ⭐️⭐️⭐️  |
-|1116|[打印零与奇偶数](https://leetcode-cn.com/problems/print-zero-even-odd/)|[Java](https://github.com/Willberg/invoker/blob/master/java/concurrency/printzeroevenodd/ZeroEvenOdd.java)| 中等 |  ⭐️⭐️⭐️  |
+|1115|[交替打印FooBar](https://leetcode-cn.com/problems/print-foobar-alternately/)|[Java](https://github.com/Willberg/invoker/tree/master/java/concurrency/printfoobaralternately) [Go](https://github.com/Willberg/invoker/blob/master/golang/concurrency/print_zero_even_odd.go)| 中等 |  ⭐️⭐️⭐️  |
+|1116|[打印零与奇偶数]()|[Java](https://github.com/Willberg/invoker/blob/master/java/concurrency/printzeroevenodd/ZeroEvenOdd.java)| 中等 |  ⭐️⭐️⭐️  |
 |1117|[H2O 生成](https://leetcode-cn.com/problems/building-h2o/)|[Java](https://github.com/Willberg/invoker/blob/master/java/concurrency/buildingh2o/H2O.java)| 中等 |  ⭐️⭐️⭐️  |
 |1195|[交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded/)|[Java](https://github.com/Willberg/invoker/blob/master/java/concurrency/fizzbuzzmultithreaded/FizzBuzz.java)| 中等 |  ⭐️⭐️⭐️  |
 |1226|[哲学家进餐](https://leetcode-cn.com/problems/the-dining-philosophers/)|[Java](https://github.com/Willberg/invoker/blob/master/java/concurrency/thediningphilosophers/DiningPhilosophers.java)| 中等 |  ⭐️⭐️⭐️  |
+||读写锁|[Java](https://github.com/Willberg/invoker/blob/master/java/concurrency/lock/impl/RwLockImpl.java) [Go]()| 中等 |  ⭐️⭐️⭐️  |
 
 
 ## 数据库
@@ -97,6 +114,12 @@
 |177|[第N高的薪水](https://leetcode-cn.com/problems/nth-highest-salary/)|[sql](https://github.com/Willberg/invoker/blob/master/sql/nth_highest_salary.sql)| 中等 |  ⭐️⭐️⭐️  |
 |185|[部门工资前三高的所有员工](https://leetcode-cn.com/problems/department-top-three-salaries/)|[sql](https://github.com/Willberg/invoker/blob/master/sql/department_top_three_salaries.sql)| 中等 |  ⭐️⭐️⭐️  |
 |596|[超过5名学生的课](https://leetcode-cn.com/problems/classes-more-than-5-students/)|[sql](https://github.com/Willberg/invoker/blob/master/sql/classes_more_than_5_students.sql)| 中等 |  ⭐️⭐️⭐️  |
+
+## 分布式
+|题号|                                 题目名称                                   |                   代码                   |难度|级别|
+|:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
+||一致性hash|[Java](https://github.com/Willberg/invoker/blob/master/java/distributed/consistenthash/ConsistentHash.java)| 中等 |  ⭐️⭐️⭐️  |
+||分布式自增ID|[Java](https://github.com/Willberg/invoker/blob/master/java/distributed/selfIncID/SelfIncID.java)| 中等 |  ⭐️⭐️⭐️  |
 
 ## shell
 
