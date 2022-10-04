@@ -1,5 +1,5 @@
 # **invoker**
-学习算法和数据结构的项目, 提供java, go, ~~c, c++和python~~版, 记录了leetcode上常见的的题目和相关解答, 尽量提供详尽的注释进行解答. HOT100最好全部做一遍, 出现在周赛里的会特别标出, 其他按星级排名, 星越多越重要.
+学习算法和数据结构的项目, 提供java, go, c, ~~c++和python~~版, 记录了leetcode上常见的的题目和相关解答, 尽量提供详尽的注释进行解答. HOT100最好全部做一遍, 出现在周赛里的会特别标出, 其他按星级排名, 星越多越重要.
 
 ## 算法
 常见的练习题, 包括贪心算法, 双指针, 二分查找, 排序, 优先搜索, 动态规划, 分治法, 数学, 位运算.
@@ -21,7 +21,8 @@
 |406|[根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/queuereconstruction/Solution.java)| 中等 | HOT100 |
 |581|[最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/shortestunsorted/Solution.java)| 中等 | HOT100 |
 |621|[任务调度器](https://leetcode-cn.com/problems/task-scheduler/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/taskscheduler/Solution.java)| 中等 | HOT100 |
-|5923|[从房屋收集雨水需要的最少水桶数](https://leetcode-cn.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/minbuckets/Solution.java)| 中等 | HOT100 |
+|921|[使括号有效的最少添加](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/)|[Go](https://github.com/Willberg/invoker/blob/master/golang/algorithm/greedy/minadd/minadd.go) [C](https://github.com/Willberg/invoker/blob/master/c/algorithm/greedy/minadd/minadd.c)| 中等 | ⭐️ |
+|2086|[从房屋收集雨水需要的最少水桶数](https://leetcode-cn.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/minbuckets/Solution.java)| 中等 | 第 66 场双周赛 |
 |2087|[从数组中移除最大网格图中机器人回家的最小代价值和最小值](https://leetcode-cn.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/mincost/Solution.java)| 中等 |第 66 场双周赛|
 |2091|[从数组中移除最大值和最小值](https://leetcode-cn.com/problems/removing-minimum-and-maximum-from-array/)|[Java](https://github.com/Willberg/invoker/blob/master/java/algorithm/greedy/removingminimumandmaximumfromarray/Solution.java)| 中等 |第 269 场周赛|
 
@@ -67,8 +68,8 @@
 ##### 优先队列
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
-||设计通用版优先队列|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/queue/priorityqueue/PriorityQueue.java) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/queue/priorityqueue/priorityqueue.go)| 困难 | ⭐️⭐️⭐️ |
-|23|[合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/queue/priorityqueue/TestPriorityQueue.java) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/queue/mergeklists/mergeklists.go)| 困难 | ⭐️⭐️⭐️ |
+||设计通用版优先队列|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/queue/priorityqueue/PriorityQueue.java) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/queue/priorityqueue/priorityqueue.go)| 困难 | ⭐️⭐️⭐️⭐️ |
+|23|[合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/queue/priorityqueue/TestPriorityQueue.java) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/queue/mergeklists/mergeklists.go)| 困难 | ⭐️⭐️⭐️⭐️ |
 
 
 #### 图
@@ -77,7 +78,7 @@
 
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
-|1514|[概率最大的路径](https://leetcode-cn.com/problems/path-with-maximum-probability/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/graph/dijkstra/PathWithMaximumProbability.java)| 中等 | ⭐️⭐️ |
+|1514|[概率最大的路径](https://leetcode-cn.com/problems/path-with-maximum-probability/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/graph/dijkstra/PathWithMaximumProbability.java)| 中等 | ⭐️⭐️⭐️ |
 
 #### 复杂数据结构
 ##### 并查集
@@ -89,7 +90,7 @@
 ##### 跳表
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
-|1206|[设计跳表](https://leetcode.cn/problems/design-skiplist/)|[Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/skiplist/skiplist.go)| 困难 | ⭐️⭐️⭐️ |
+|1206|[设计跳表](https://leetcode.cn/problems/design-skiplist/)|[Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/skiplist/skiplist.go)| 困难 | ⭐️⭐️⭐️⭐️ |
 
 
 ## 多线程
