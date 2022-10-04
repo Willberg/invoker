@@ -1,6 +1,8 @@
 //
 // Created by john on 2022/9/23.
 //
+
+// 707. 设计链表 https://leetcode.cn/problems/design-linked-list/
 #include "linkedlist.h"
 
 ListNode *listNodeCreate(int val) {

@@ -1,9 +1,11 @@
 //
-// Created by john on 2022/10/1.
+// Created by john on 2022/10/4.
 //
+// 23. 合并K个升序链表 https://leetcode.cn/problems/merge-k-sorted-lists/
+#include "../../priorityqueue/priorityqueue.h"
+#include "../../../list/linkedlist/linkedlist.h"
 
-#include "../priorityqueue/priorityqueue.h"
-#include "../../linkedlist/linkedlist.h"
+LinkedList *createList(int *a, int n);
 
 bool ListNodeLess(void *a, void *b) {
     return ((ListNode *) a)->val < ((ListNode *) b)->val;
@@ -35,16 +37,6 @@ ListNode *mergeKLists(ListNode **lists, int listsSize) {
     p = dummy->next;
     free(dummy);
     return p;
-}
-
-LinkedList *createList(int *a, int n) {
-    LinkedList *list = linkedListCreate();
-    for (int i = 0; i < n; i++) {
-        printf("%d,", a[i]);
-        linkedListAddAtTail(list, a[i]);
-    }
-    printf("\n");
-    return list;
 }
 
 // [[1,4,5],[1,3,4],[2,6]]
