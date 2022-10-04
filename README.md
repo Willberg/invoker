@@ -68,8 +68,13 @@
 ##### 优先队列
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
-||设计通用版优先队列|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/queue/priorityqueue/PriorityQueue.java) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/queue/priorityqueue/priorityqueue.go)| 困难 | ⭐️⭐️⭐️⭐️ |
-|23|[合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/queue/priorityqueue/TestPriorityQueue.java) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/queue/mergeklists/mergeklists.go)| 困难 | ⭐️⭐️⭐️⭐️ |
+||设计通用版优先队列|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/queue/priorityqueue/PriorityQueue.java) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/queue/priorityqueue/priorityqueue.go) [C](https://github.com/Willberg/invoker/blob/master/c/datastructure/queue/priorityqueue/priorityqueue.c)| 困难 | ⭐️⭐️⭐️⭐️ |
+|23|[合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/queue/priorityqueue/TestPriorityQueue.java) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/queue/mergeklists/mergeklists.go) [C](https://github.com/Willberg/invoker/blob/master/c/datastructure/queue/test/mergeklist/test_mergeklist.c)| 困难 | ⭐️⭐️⭐️⭐️ |
+
+#### 链表
+|题号|                                 题目名称                                   |                   代码                   |难度|级别|
+|:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
+|707|[设计链表](https://leetcode.cn/problems/design-linked-list/)|[Go]() [C](https://github.com/Willberg/invoker/blob/master/c/datastructure/list/linkedlist/linkedlist.c)| 中等 | ⭐️⭐️⭐️ |
 
 
 #### 图

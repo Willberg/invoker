@@ -3,9 +3,9 @@
 //
 void test_greedy_min_add();
 
-void test_priority_queue();
+void test_mergeklist();
 
 int main() {
     test_greedy_min_add();
-    test_priority_queue();
+    test_mergeklist();
 }

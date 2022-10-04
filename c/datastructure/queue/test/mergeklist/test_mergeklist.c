@@ -40,7 +40,7 @@ ListNode *mergeKLists(ListNode **lists, int listsSize) {
 }
 
 // [[1,4,5],[1,3,4],[2,6]]
-void test_priority_queue() {
+void test_mergeklist() {
     int a1[3] = {1, 4, 5}, a2[3] = {1, 3, 4}, a3[2] = {2, 6};
     LinkedList *l1 = createList(a1, 3), *l2 = createList(a2, 3), *l3 = createList(a3, 2);
     ListNode **lists = (ListNode **) malloc(3 * sizeof(ListNode *));
