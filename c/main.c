@@ -1,14 +1,11 @@
 //
 // Created by john on 2022/10/4.
 //
-#include <stdio.h>
+void test_greedy_min_add();
 
-int minAddToMakeValid(char *);
-
-void test_greedy_min_add() {
-    printf("%d\n", minAddToMakeValid("))("));
-}
+void test_priority_queue();
 
 int main() {
     test_greedy_min_add();
+    test_priority_queue();
 }
