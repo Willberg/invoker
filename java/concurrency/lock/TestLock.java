@@ -56,13 +56,15 @@ public class TestLock {
     private static void testLockByThreadPool(int rate, double useRate, int queueSize, int taskCount) {
         int nThreads = Runtime.getRuntime().availableProcessors();
         int coreThreads = Double.valueOf(Math.floor(nThreads * useRate * (1 + rate))).intValue();
-        int maxThreads = (int)(coreThreads * 1.5);
+        // 创建线程极其耗费资源， 在1百万任务的情况下，最大线程数大于核心线程数但存活时间为0，会导致频繁创建和销毁线程，反而用时会超过使用固定线程数的情况
+        // 经过测试在1百万任务的情况下，核心线程数 = 最大线程数（不创建任何临时线程）的情况下，用时最短，效率最高
+        int maxThreads = (int)(coreThreads * 1.1);
         RwLock rwLock = new RwLockImpl();
         Val val = new Val();
-        System.out.printf("coreThreads: %d, maxThreads: %d\n", coreThreads, maxThreads);
-        ThreadPoolExecutor es = new ThreadPoolExecutor(coreThreads, maxThreads, 0L, TimeUnit.MILLISECONDS,
+        ThreadPoolExecutor es = new ThreadPoolExecutor(coreThreads, maxThreads, 5000L, TimeUnit.MILLISECONDS,
             new LinkedBlockingQueue<>(queueSize), new RwLockThreadFactory(), new ThreadPoolExecutor.CallerRunsPolicy());
 
+        long start = System.currentTimeMillis();
         for (int i = 0; i < taskCount; i++) {
             es.execute(() -> {
                 rwLock.lock();
@@ -83,6 +85,7 @@ public class TestLock {
         while (!es.isTerminated()) {
             // 自旋，直到线程池关闭
         }
+        System.out.printf("执行完所有任务的用时：%d\n", System.currentTimeMillis() - start);
         System.out.printf("关闭线程池之后, 获取任务总数(近似值): %d,完成的任务(近似值):%d\n", es.getTaskCount(), es.getCompletedTaskCount());
         System.out.println("线程池创建的线程数量: " + createdThreads.size() + ", 执行任务的线程数量:" + executeThreads.size());
         System.out.println("core threads: " + es.getCorePoolSize() + ", max threads: " + es.getMaximumPoolSize());
