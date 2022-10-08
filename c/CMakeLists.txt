@@ -10,4 +10,6 @@ add_executable(c
         datastructure/queue/priorityqueue/priorityqueue.c
         datastructure/queue/test/mergeklist/test_mergeklist.c
         datastructure/list/test/linkedlist/test_linkedlist.c
+        datastructure/list/skiplist/skiplist.c
+        datastructure/list/test/skiplist/test_skiplist.c
         main.c)

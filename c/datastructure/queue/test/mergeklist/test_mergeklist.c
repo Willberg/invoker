@@ -47,15 +47,20 @@ void test_mergeklist() {
     lists[0] = l1->head->next;
     lists[1] = l2->head->next;
     lists[2] = l3->head->next;
-    ListNode *t = mergeKLists(lists, 3), *p = t;
+    ListNode *p = mergeKLists(lists, 3);
+    free(lists);
+    // 防止next指针仍然指向下一节点，导致后面free函数无法结束循环而栈溢出
+    l1->head->next = NULL;
+    l2->head->next = NULL;
+    l3->head->next = NULL;
+    linkedListFree(l1);
+    linkedListFree(l2);
+    linkedListFree(l3);
     while (p) {
         printf("%d,", p->val);
         ListNode *tmp = p;
         p = p->next;
+        tmp->next = NULL;
         free(tmp);
     }
-    free(lists);
-    linkedListFree(l1);
-    linkedListFree(l2);
-    linkedListFree(l3);
 }

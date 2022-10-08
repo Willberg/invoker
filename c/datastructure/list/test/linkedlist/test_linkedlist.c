@@ -1,6 +1,7 @@
 //
 // Created by john on 2022/10/4.
 //
+#include <stdio.h>
 #include "../../../list/linkedlist/linkedlist.h"
 
 LinkedList *createList(int *a, int n) {

@@ -79,6 +79,7 @@ void linkedListFree(LinkedList *obj) {
     while (cur) {
         tmp = cur;
         cur = cur->next;
+        tmp->next = NULL;
         free(tmp);
     }
     free(obj);
