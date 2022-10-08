@@ -5,8 +5,6 @@
 #include <stdio.h>
 #include "../../skiplist/skiplist.h"
 
-static const int P = RAND_MAX >> 2;
-
 int intn(int n) {
     int mx = RAND_MAX - RAND_MAX % n;
     int r = rand();
