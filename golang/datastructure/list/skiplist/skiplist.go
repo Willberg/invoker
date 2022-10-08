@@ -1,5 +1,5 @@
 // 1206. 设计跳表 https://leetcode.cn/problems/design-skiplist/
-package main
+package skiplist
 
 import (
 	"fmt"
@@ -95,18 +95,11 @@ func (s *Skiplist) Erase(num int) bool {
 	return true
 }
 
-func main() {
-	s := Constructor()
-	arr := []int{}
-	for i := 0; i < 10; i++ {
-		v := int(rand.Int31())
-		arr = append(arr, v)
-		s.Add(v)
+// 用于查看跳表元素
+func (s *Skiplist) PrintSkipList() {
+	fmt.Printf("\nlevel = %d\n", s.level)
+	for cur := s.head.forward[0]; cur != nil; cur = cur.forward[0] {
+		fmt.Printf("(%d,%d),", cur.val, len(cur.forward))
 	}
-	for _, v := range arr {
-		fmt.Printf("Add %d\n", v)
-	}
-	fmt.Printf("search %d: %v\n", arr[0], s.Search(arr[0]))
-	fmt.Printf("erase %d: %v\n", arr[0], s.Erase(arr[0]))
-	fmt.Printf("search %d: %v\n", arr[0], s.Search(arr[0]))
+	fmt.Println("")
 }

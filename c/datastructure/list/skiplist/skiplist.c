@@ -1,7 +1,9 @@
 //
 // Created by john on 2022/10/7.
 //
+//
 
+// 1206. 设计跳表 https://leetcode.cn/problems/design-skiplist/
 #include "skiplist.h"
 
 static const int P = RAND_MAX >> 2;
