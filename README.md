@@ -95,7 +95,7 @@
 ##### 跳表
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
-|1206|[设计跳表](https://leetcode.cn/problems/design-skiplist/)|[Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/skiplist/skiplist.go)| 困难 | ⭐️⭐️⭐️⭐️ |
+|1206|[设计跳表](https://leetcode.cn/problems/design-skiplist/)|[C](https://github.com/Willberg/invoker/blob/2392b46e86/c/datastructure/list/skiplist/skiplist.c) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/skiplist/skiplist.go) [C++](https://github.com/Willberg/invoker/blob/master/cpp/datastructure/list/skiplist/skiplist.h)| 困难 | ⭐️⭐️⭐️⭐️ |
 
 
 ## 多线程
