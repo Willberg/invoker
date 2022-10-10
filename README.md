@@ -90,7 +90,7 @@
   
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
-|399|[除法求值](https://leetcode-cn.com/problems/evaluate-division/)|[Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/unionfind/evaluatedivision/Solution.java)| 中等 | HOT100 |
+|399|[除法求值](https://leetcode-cn.com/problems/evaluate-division/)|[Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/unionfind/evaluatedivision/ed.go) [Java](https://github.com/Willberg/invoker/blob/master/java/datastructure/unionfind/evaluatedivision/Solution.java)| 中等 | HOT100 |
 
 ##### 跳表
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
