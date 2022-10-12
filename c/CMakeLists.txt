@@ -12,4 +12,4 @@ add_executable(c
         datastructure/list/test/linkedlist/test_linkedlist.c
         datastructure/list/skiplist/skiplist.c
         datastructure/list/test/skiplist/test_skiplist.c
-        main.c)
+        main.c datastructure/hashtable/listcomponents/listcomponents.c datastructure/hashtable/listcomponents/listcomponents.h)
