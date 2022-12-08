@@ -102,6 +102,11 @@
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
 |1206|[设计跳表](https://leetcode.cn/problems/design-skiplist/)|[C](https://github.com/Willberg/invoker/blob/2392b46e86/c/datastructure/list/skiplist/skiplist.c) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/list/skiplist/skiplist.go) [C++](https://github.com/Willberg/invoker/blob/master/cpp/datastructure/list/skiplist/skiplist.h)| 困难 | ⭐️⭐️⭐️⭐️ |
 
+##### 平衡二叉搜索树
+|题号|                                 题目名称                                   |                   代码                   |难度|级别|
+|:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
+||[设计平衡二叉搜索树](https://zh.wikipedia.org/wiki/AVL%E6%A0%91)|[C](https://github.com/Willberg/invoker/blob/c8934d0a67e896aba715db58eb863c417847dc4f/c/datastructure/tree/avl/avl.c) [Go]() | 困难 | ⭐️⭐️⭐️⭐️ |
+
 
 ## 多线程
 重点要掌握锁,信号量
