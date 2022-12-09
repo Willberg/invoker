@@ -105,7 +105,7 @@
 ##### 平衡二叉搜索树
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
-||[设计平衡二叉搜索树](https://zh.wikipedia.org/wiki/AVL%E6%A0%91)|[C](https://github.com/Willberg/invoker/blob/c8934d0a67e896aba715db58eb863c417847dc4f/c/datastructure/tree/avl/avl.c) [Go]() | 困难 | ⭐️⭐️⭐️⭐️ |
+||[设计平衡二叉搜索树](https://zh.wikipedia.org/wiki/AVL%E6%A0%91)|[C](https://github.com/Willberg/invoker/blob/c8934d0a67e896aba715db58eb863c417847dc4f/c/datastructure/tree/avl/avl.c) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/tree/avl/avl.go) | 困难 | ⭐️⭐️⭐️⭐️ |
 
 
 ## 多线程
