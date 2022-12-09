@@ -1,3 +1,4 @@
+// 设计平衡二叉搜索树 https://zh.wikipedia.org/wiki/AVL%E6%A0%91
 #include "avl.h"
 #include <stdio.h>
 #include <stdlib.h>
