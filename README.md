@@ -75,6 +75,7 @@
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
 |707|[设计链表](https://leetcode.cn/problems/design-linked-list/)|[Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/list/linkedlist/linkedlist.go) [C](https://github.com/Willberg/invoker/blob/master/c/datastructure/list/linkedlist/linkedlist.c)| 中等 | ⭐️⭐️⭐️ |
+||[用C语言实现malloc和free函数](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation)|[C](https://github.com/Willberg/invoker/blob/master/c/datastructure/list/mymalloc/mymalloc.c)| 困难 | ⭐️⭐️⭐️⭐️ |
 
 #### 哈希
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
