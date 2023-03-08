@@ -75,7 +75,7 @@
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
 |707|[设计链表](https://leetcode.cn/problems/design-linked-list/)|[Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/list/linkedlist/linkedlist.go) [C](https://github.com/Willberg/invoker/blob/master/c/datastructure/list/linkedlist/linkedlist.c)| 中等 | ⭐️⭐️⭐️ |
-||[用C语言实现malloc和free函数](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation)|[C](https://github.com/Willberg/invoker/blob/master/c/datastructure/list/mymalloc/mymalloc.c)| 困难 | ⭐️⭐️⭐️⭐️ |
+|4|[用C语言实现malloc和free函数](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation)|[C](https://github.com/Willberg/invoker/blob/master/c/datastructure/list/mymalloc/mymalloc.c)| 困难 | ⭐️⭐️⭐️⭐️ |
 
 #### 哈希
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
@@ -107,7 +107,7 @@
 |题号|                                 题目名称                                   |                   代码                   |难度|级别|
 |:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
 |2|[设计平衡二叉搜索树](https://zh.wikipedia.org/wiki/AVL%E6%A0%91)|[C](https://github.com/Willberg/invoker/blob/master/c/datastructure/tree/avl/avl.c) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/tree/avl/avl.go) | 困难 | ⭐️⭐️⭐️⭐️ |
-|3|[设计红黑树](https://zh.wikipedia.org/wiki/%E7%BA%A2%E9%BB%91%E6%A0%91)|[C++]() [Go]() | 困难 | ⭐️⭐️⭐️⭐️ |
+|3|[设计红黑树](https://zh.wikipedia.org/wiki/%E7%BA%A2%E9%BB%91%E6%A0%91)|[C++](https://github.com/Willberg/invoker/blob/master/cpp/datastructure/tree/redblacktree/redblacktree.cpp) [Go]() | 困难 | ⭐️⭐️⭐️⭐️ |
 
 
 ## 多线程
