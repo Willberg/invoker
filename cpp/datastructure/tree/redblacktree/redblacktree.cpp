@@ -271,9 +271,9 @@ private:
             p->parent->color = RED;
             p->silbing()->color = BLACK;
             if (p == p->parent->left) {
-                rotate_left(p->parent);
+                rotate_left(p->silbing());
             } else {
-                rotate_right(p->parent);
+                rotate_right(p->silbing());
             }
         }
         if(p->parent->color == BLACK && p->silbing()->color == BLACK
@@ -440,11 +440,17 @@ int main(int argc, const char * argv[]) {
     rbt.insert(-100);
     rbt.insert(0);
     for (int i=1, j=0; j<25; j++, i+=2) {
+        cout << i << "," << j << endl;
+        rbt.delete_value(i);
+        rbt.printAllTree(true);
+    }
+    for (int i=0, j=0; j<25; j++, i+=2) {
+        cout << i << "," << j << endl;
         rbt.delete_value(i);
         rbt.printAllTree(true);
     }
     rbt.printAllTree(false);
-    Node* p = rbt.find(8);
+    Node* p = rbt.find(0);
     rbt.printTree(p, false);
     rbt.printTree(p, true);
     return 0;
