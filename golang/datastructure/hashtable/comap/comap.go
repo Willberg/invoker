@@ -1,4 +1,4 @@
-//
+// https://github.com/Willberg/invoker/blob/master/golang/datastructure/hashtable/comap/comap.go
 // 实现一个面向高并发的map
 // 1. 面向高并发
 // 2. 插入和查询操作（O(1)）
