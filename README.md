@@ -111,6 +111,11 @@
 |3|[设计红黑树](https://zh.wikipedia.org/wiki/%E7%BA%A2%E9%BB%91%E6%A0%91)|[C++](https://github.com/Willberg/invoker/blob/master/cpp/datastructure/tree/redblacktree/redblacktree.cpp) [Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/tree/redblacktree/redblacktree.go) | 困难 | ⭐️⭐️⭐️⭐️ |
 
 
+##### 后缀数组
+|题号|                                 题目名称                                   |                   代码                   |难度|级别|
+|:--:|:------------------------------------------------------------------------:|:---------------------------------------:|:--:|:--:|
+|1754|[构造字典序最大的合并字符串](https://leetcode.cn/problems/largest-merge-of-two-strings)|[Go](https://github.com/Willberg/invoker/blob/master/golang/datastructure/suffixarray/sa.go) | 中等 | ⭐️⭐️⭐️⭐️ |
+
 ## 多线程
 重点要掌握锁,信号量
 
